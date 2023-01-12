@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import "./App.css";
 
 // function App() {
 //   return (
@@ -29,7 +29,7 @@ import { Week } from "./components/Week/Week.jsx";
 
 export const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header text="Розклад уроків та ДЗ" />
       <Week />
     </div>
