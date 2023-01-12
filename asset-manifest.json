@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/school_diary/static/css/main.e9eed997.css",
+    "main.js": "/school_diary/static/js/main.cd5e5427.js",
+    "static/js/787.34e5dce4.chunk.js": "/school_diary/static/js/787.34e5dce4.chunk.js",
+    "index.html": "/school_diary/index.html",
+    "main.e9eed997.css.map": "/school_diary/static/css/main.e9eed997.css.map",
+    "main.cd5e5427.js.map": "/school_diary/static/js/main.cd5e5427.js.map",
+    "787.34e5dce4.chunk.js.map": "/school_diary/static/js/787.34e5dce4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9eed997.css",
+    "static/js/main.cd5e5427.js"
+  ]
+}
