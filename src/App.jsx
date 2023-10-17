@@ -26,12 +26,15 @@ import "./App.css";
 
 import { Header } from "./components/Header/Header.jsx";
 import { Week } from "./components/Week/Week.jsx";
+import { Lessons } from "./components/Lessons/Lessons.jsx";
+import { lessonsItems } from "./components/Lessons/lessons";
 
 export const App = () => {
   return (
     <div className="App">
       <Header text="Розклад уроків та ДЗ" />
       <Week />
+      <Lessons lessons={lessonsItems} />
     </div>
   );
 };
