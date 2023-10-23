@@ -1,0 +1,36 @@
+.Lessons_list{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Lessons_title{
+    color: brown;
+ vertical-align: middle;
+writing-mode: vertical-lr;
+text-align: right;
+width: calc((100%-80px)/5);
+}
+
+
+.Lessons_item{
+    display: flex;
+    width: 100%;
+}
+.Lessons_wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Lessons_item_content{
+    width: 100%;
+    display: flex;
+}
+.Lessons_item_content_lesson{
+width: 50%;
+display: flex;
+}
+.Lessons_item_content_task{
+width: 50%;
+display: flex;
+}
