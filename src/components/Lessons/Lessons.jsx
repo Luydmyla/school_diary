@@ -13,44 +13,6 @@ export const LessonsList = ({ lessonsItems }) => (
             <h2> Day {lessonsItem.title}</h2>
           </div>
           <div className={css.Lessons_wrap}>
-            {/* <table>
-                <tr>
-                  <th className="">{lessonsItem.lessons[1]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="">{lessonsItem.lessons[2]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="">{lessonsItem.lessons[3]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="">{lessonsItem.lessons[4]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="">{lessonsItem.lessons[5]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="">{lessonsItem.lessons[6]}</th>
-                  <td>
-                    <span className="">Завдання</span>
-                  </td>
-                </tr>
-              </table> */}
             <div className={css.Lessons_item_content}>
               <span className={css.Lessons_item_content_lesson}>
                 {lessonsItem.lessons[1]}
@@ -83,7 +45,7 @@ export const LessonsList = ({ lessonsItems }) => (
             </div>
             <div className={css.Lessons_item_content}>
               <span className={css.Lessons_item_content_lesson}>
-                Lesson {lessonsItem.lessons[6]}
+                {lessonsItem.lessons[6]}
               </span>
               <span className={css.Lessons_item_content_task}> Завдання</span>
             </div>
