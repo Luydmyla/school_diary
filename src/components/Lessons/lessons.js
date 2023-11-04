@@ -1,4 +1,4 @@
-export const lessonsItems = [
+export const days = [
   {
     id: "1",
     title: "Понеділок",
