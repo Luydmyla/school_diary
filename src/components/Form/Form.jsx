@@ -1,15 +1,15 @@
 import css from "./Form.module.css";
 import { CustomInput } from "../CustomInput/CustomInput";
 
-export const Form = () => {
+export const Form = (props) => {
   return (
     <form className={css.Form}>
-      <select name="lesson">
-        <option value="S1">Понеділок</option>
-        <option value="S2">Вівторок</option>
-        <option value="S3">Середа</option>
-        <option value="S4">Четвер</option>
-        <option value="S5">П'ятниця</option>
+      <select name="lesson" onChange={props.onSelected}>
+        <option value="Понеділок">Понеділок</option>
+        <option value="Вівторок">Вівторок</option>
+        <option value="Середа">Середа</option>
+        <option value="Четвер">Четвер</option>
+        <option value="П'ятниця">П'ятниця</option>
       </select>
       {<CustomInput />}
     </form>
