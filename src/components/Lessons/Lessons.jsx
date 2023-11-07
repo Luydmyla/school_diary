@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import css from "./Lessons.module.css";
-import { lessonsItems } from "./lessons";
+import { lessonsItems } from "./days";
 console.log(lessonsItems);
 
 export const LessonsList = ({ lessonsItems }) => (

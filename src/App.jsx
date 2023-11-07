@@ -27,17 +27,18 @@ import "./App.css";
 import { Header } from "./components/Header/Header.jsx";
 import { Week } from "./components/Week/Week.jsx";
 // import { LessonsList } from "./components/Lessons/Lessons.jsx";
-import { days } from "./components/Lessons/lessons";
+import { days } from "./components/Lessons/days";
 import { LessonsList } from "./components/Lessons/LessonsList.jsx";
+import { tasks } from "./components/Lessons/Tasks";
 
-function normalizedLessons(days) {
+function normalizedLessons(days, tasks) {
   return days.map((day) => {
     return {
       name: day.title,
-      lessons: Object.values(day.lessons).map((name) => {
+      lessons: Object.values(day.lessons).map((name, index) => {
         return {
           name: name,
-          tasks: "",
+          task: tasks[day.title][index],
         };
       }),
     };
@@ -45,7 +46,7 @@ function normalizedLessons(days) {
 }
 
 export const App = () => {
-  const normDays = normalizedLessons(days);
+  const normDays = normalizedLessons(days, tasks);
   return (
     <div className="App">
       <Header text="Розклад уроків та ДЗ" />

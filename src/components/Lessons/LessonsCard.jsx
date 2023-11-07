@@ -16,7 +16,7 @@ export const LessonsCard = ({ title, lessons }) => (
             <span className="info-table-name"> {lesson.name}</span>
           </td>
           <td>
-            <span className="info-table-task">{lesson.tasks}</span>
+            <span className="info-table-task">{lesson.task}</span>
           </td>
         </tr>
       ))}
