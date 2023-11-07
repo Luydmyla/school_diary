@@ -30,6 +30,11 @@ import { Week } from "./components/Week/Week.jsx";
 import { days } from "./components/Lessons/days";
 import { LessonsList } from "./components/Lessons/LessonsList.jsx";
 import { tasks } from "./components/Lessons/Tasks";
+import Modal from "./components/Lessons/LessonsModal/Modal";
+// import { LessonsCard } from "../Lessons/LessonsCard";
+// import Modal from "../Lessons/LessonsModal/Modal";
+
+import { useState } from "react";
 
 function normalizedLessons(days, tasks) {
   return days.map((day) => {
@@ -46,6 +51,12 @@ function normalizedLessons(days, tasks) {
 }
 
 export const App = () => {
+  const [day, setDay] = useState("Понеділок");
+  const onChange = (event) => {
+    const { value } = event.currentTarget;
+    setDay(value);
+  };
+
   const normDays = normalizedLessons(days, tasks);
   return (
     <div className="App">
@@ -53,6 +64,8 @@ export const App = () => {
       <Week />
       {/* <LessonsList lessonsItems={lessonsItems} /> */}
       <LessonsList days={normDays} />
+      {/* <Modal>{<LessonsCard title={} lessons={lessons} key={} />}</Modal> */}
+      {<Modal />}
     </div>
   );
 };
