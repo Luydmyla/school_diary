@@ -1,7 +1,23 @@
 .App {
   margin: 10px;
-  text-align: center;
-  background-color: aqua;
+  /* text-align: center; */
+  /* background-color: aqua; */
+  /* background-image: url(../public/1663767234_b-3.jpg); */
+  
+  /* background-image: url(../public/1663767234_b-1.jpg); */
+  /* background-image: url(../public/1663767242_g-36.jpg); */
+  
+  
+  background-image: url(../public/1663767339_j-2.jpg);
+ 
+ 
+
+  
+  /* background-image: url(../public/1669927987_8-pibig-info-p-yarkii-shkolnii-fon-vkontakte-9.jpg); */
+  /* background-image: url(../public/1669928016_63-pibig-info-p-yarkii-shkolnii-fon-vkontakte-68.jpg); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {

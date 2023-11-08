@@ -6,10 +6,11 @@
 }
 .Lessons_title{
     color: brown;
+    width: 100%;
  vertical-align: middle;
-writing-mode: vertical-lr;
+/* writing-mode: vertical-lr; */
 text-align: right;
-width: calc((100%-80px)/5);
+/* width: calc((100%-80px) / 5); */
 }
 
 

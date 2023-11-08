@@ -7,6 +7,7 @@ import { LessonsList } from "./components/Lessons/LessonsList.jsx";
 import { tasks } from "./components/Lessons/Tasks";
 import Modal from "./components/Lessons/LessonsModal/Modal";
 import { LessonsCard } from "./components/Lessons/LessonsCard";
+import Container from "./components/Container";
 
 import { useState } from "react";
 
@@ -49,21 +50,23 @@ export const App = () => {
   console.log(currentDay);
 
   return (
-    <div className="App">
-      <Header text="Розклад уроків та ДЗ" />
-      <Week SelectDay={onDayChange} />
-      <LessonsList days={normDays} />
-      {isModalOpen && (
-        <Modal onClose={toggleModal}>
-          {
-            <LessonsCard
-              title={currentDay.name}
-              lessons={currentDay.lessons}
-              onClose={toggleModal}
-            />
-          }
-        </Modal>
-      )}
-    </div>
+    <Container>
+      <div className="App">
+        <Header text="Розклад уроків та ДЗ" />
+        <Week SelectDay={onDayChange} />
+        <LessonsList days={normDays} />
+        {isModalOpen && (
+          <Modal onClose={toggleModal}>
+            {
+              <LessonsCard
+                title={currentDay.name}
+                lessons={currentDay.lessons}
+                onClose={toggleModal}
+              />
+            }
+          </Modal>
+        )}
+      </div>
+    </Container>
   );
 };

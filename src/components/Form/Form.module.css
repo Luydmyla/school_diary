@@ -1,0 +1,19 @@
+.Form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+           
+}
+.Select{
+
+    width: 25%;
+    height: 44px;
+    display: flex;
+    border: 2px solid green;
+}
+.Option{
+   font-size: 24px;
+    font-weight: bold;
+   color: blue;
+
+}
