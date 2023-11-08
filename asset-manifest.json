@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/school_diary/static/css/main.4ae871e9.css",
-    "main.js": "/school_diary/static/js/main.51872a42.js",
+    "main.css": "/school_diary/static/css/main.a0cfdadb.css",
+    "main.js": "/school_diary/static/js/main.ee142c9e.js",
     "static/js/787.34e5dce4.chunk.js": "/school_diary/static/js/787.34e5dce4.chunk.js",
+    "static/media/1663767339_j-2.jpg": "/school_diary/static/media/1663767339_j-2.fe836c15eb9bbdf368c3.jpg",
+    "static/media/1669927960_26-pibig-info-p-yarkii-shkolnii-fon-vkontakte-28.jpg": "/school_diary/static/media/1669927960_26-pibig-info-p-yarkii-shkolnii-fon-vkontakte-28.41b14638ea845bb73534.jpg",
     "index.html": "/school_diary/index.html",
-    "main.4ae871e9.css.map": "/school_diary/static/css/main.4ae871e9.css.map",
-    "main.51872a42.js.map": "/school_diary/static/js/main.51872a42.js.map",
+    "main.a0cfdadb.css.map": "/school_diary/static/css/main.a0cfdadb.css.map",
+    "main.ee142c9e.js.map": "/school_diary/static/js/main.ee142c9e.js.map",
     "787.34e5dce4.chunk.js.map": "/school_diary/static/js/787.34e5dce4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ae871e9.css",
-    "static/js/main.51872a42.js"
+    "static/css/main.a0cfdadb.css",
+    "static/js/main.ee142c9e.js"
   ]
 }
