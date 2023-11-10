@@ -2,18 +2,24 @@
      display: flex;
      justify-content: center;
      align-items: center;
+    
+     margin-bottom: 20px;
+     
            
 }
 .Select{
 
     width: 25%;
-    height: 44px;
+    /* height: 44px; */
     display: flex;
     border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
 }
 .Option{
    font-size: 24px;
     font-weight: bold;
-   color: blue;
+   color: rgba(238, 144, 14, 0.651);
 
 }
