@@ -1,11 +1,12 @@
 .Lessons_list{
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
-    background-image: url(../../../public/container.png);
+    background-image: url(../../../public/container2png.png);
         background-repeat: repeat-y;
-        background-size: cover;
+        background-size: contain;
         padding-left: 200px;
-        padding-right: 50px;
+        padding-right: 200px;
         padding-bottom: 20px;
 
 
@@ -27,25 +28,26 @@ border: 4px solid orangered;
     /* margin-left: 180px;
     margin-right: 50px;
     */
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
+    background-color: white;
 }
-.table_body{
-/* width: 100%; */
-
+/* .table_body{
 padding: 10px;
-}
+} */
+
 .table_tr{
     width: 100%;
     
 }
 .table_td_name{
 border: 1px solid orangered;
-width: 50%;
+width: 20%;
 }
 .table_td_task {
     border: 1px solid orangered;
-    width: 50%;
+    width: 80%;
 }
 .Lessons_item{
     display: flex;

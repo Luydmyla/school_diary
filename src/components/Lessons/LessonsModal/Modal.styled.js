@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from "./modal.png";
 export const Backdrop = styled.div`
   position: fixed;
   top: 0;
@@ -6,6 +7,7 @@ export const Backdrop = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 `;
 
 export const Content = styled.div`
@@ -14,18 +16,28 @@ export const Content = styled.div`
   left: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   align-content: center;
 
-  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: transform 1250ms, opacity 500ms;
+
+  transform: translate(-50%, -50%) scale(1);
+
   /* max-width: 600px; */
-  height: fit-content;
-  width: fit-content;
-  /* width: 50vw; */
+  /* height: fit-content;
+  width: fit-content; */
+  width: 50vw;
+  height: 25vw;
   padding: 50px;
   background-color: #fff;
-  background: linear-gradient(lightblue, lightyellow);
-
+  background-image: url(${img});
+  /* width: 200px;
+  height: 200px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(lightblue, lightyellow); */
+  border: 4px solid orange;
   border-radius: 10px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);

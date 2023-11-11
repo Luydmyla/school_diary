@@ -1,0 +1,10 @@
+.footer{
+    height: 140px;
+    background-image: url(../../../public/9d9b71e4e4c13079eadf12d0427c25fe\(1\).jpg);
+        background-repeat: repeat;
+        background-size: contain;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: firebrick;
+}
