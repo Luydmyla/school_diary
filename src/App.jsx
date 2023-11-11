@@ -7,6 +7,7 @@ import { LessonsList } from "./components/Lessons/LessonsList.jsx";
 import { tasks } from "./components/Lessons/Tasks";
 import Modal from "./components/Lessons/LessonsModal/Modal";
 import { LessonsCard } from "./components/Lessons/LessonsCard";
+import Button from "./components/Button/Button.jsx";
 import Container from "./components/Container";
 import Footer from "./components/Footer/Footer";
 
@@ -72,6 +73,7 @@ export const App = () => {
                 onClose={toggleModal}
               />
             }
+            <Button text="Повернутися назад" onClose={toggleModal} />
           </Modal>
         )}
         <Footer />

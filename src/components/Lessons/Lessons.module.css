@@ -1,46 +1,70 @@
-.Lessons_list{
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    background-image: url(../../../public/container2png.png);
+
+   @media screen and (min-width: 320px) {
+    .Lessons_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../../public/container2png.png);
         background-repeat: repeat-y;
         background-size: contain;
-        padding-left: 200px;
-        padding-right: 200px;
-        padding-bottom: 20px;
-
-
-}
-.Lessons_title{
+        /* padding-left: 20px; */
+        /* padding-right: 20px; */
+        padding-bottom: 10px;
+    }
+    .Lessons_title {
     color: brown;
-    width: 100%;
-    font-size: 30px;
- /* vertical-align: middle; */
-/* writing-mode: vertical-lr; */
-/* text-align: right; */
-/* width: calc((100%-80px) / 5); */
+    /* width: 100%; */
+    font-size: 20px;  
 }
-.table{
-    /* display: flex; */
-    width: 100%;
-border: 4px solid orangered;
-    border-radius: 10px;
-    /* margin-left: 180px;
-    margin-right: 50px;
-    */
+    .table {
+    /* width: 280px; */
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 5px;
+    border: 4px solid orangered;
+    border-radius: 10px;
     background-color: white;
+    margin-left: 20px;
+        margin-right: 20px;
+ }
 }
+
+/* @media screen and (min-width: 768px) { 
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px; */
+
+@media screen and (min-width: 1200px) {
+    .Lessons_list {
+        width: auto;
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-bottom: 20px;
+    }
+     .Lessons_title {
+            color: brown;
+            width: 100%;
+            font-size: 30px;
+}
+ .table {
+    width: 100%;
+    border: 4px solid orangered;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+   
+    background-color: white;
+ }
+}
+
 /* .table_body{
 padding: 10px;
 } */
 
-.table_tr{
+/* .table_tr{
     width: 100%;
-    
-}
+} */
 .table_td_name{
 border: 1px solid orangered;
 width: 20%;

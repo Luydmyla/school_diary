@@ -1,25 +1,41 @@
-.Form{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    
-     margin-bottom: 20px;
-     
-           
-}
-.Select{
 
-    width: 25%;
-    /* height: 44px; */
+
+
+    @media screen and (min-width: 320px){
+    .Form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    .Select {
     display: flex;
     border: 2px solid green;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 5px;
     margin-right: 10px;
-}
-.Option{
-   font-size: 24px;
+    }
+    .Option {
+    font-size: 14px;
     font-weight: bold;
-   color: rgba(238, 144, 14, 0.651);
+    color: rgba(238, 144, 14, 0.651);
+    }
+}
 
+
+    
+@media screen and (min-width: 1200px) {
+    .Select {
+        width: 25%;
+    /* height: 44px; */
+        display: flex;
+        border-radius: 10px;
+        padding: 10px;
+}
+    .Option {
+    font-size: 24px;
+        font-weight: bold;
+        color: rgba(238, 144, 14, 0.651);
+}
 }
