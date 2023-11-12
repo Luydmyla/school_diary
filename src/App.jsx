@@ -61,8 +61,8 @@ export const App = () => {
   console.log(currentDay);
 
   return (
-    <Container>
-      <div className="App">
+    <div className="App">
+      <Container>
         <Header text="Розклад уроків та ДЗ" />
         <Week SelectDay={onDayChange} onDaySubmit={onSelectedDaySubmit} />
         <LessonsList days={normDays} />
@@ -79,7 +79,7 @@ export const App = () => {
           </Modal>
         )}
         <Footer />
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };

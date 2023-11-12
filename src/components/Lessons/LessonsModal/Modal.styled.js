@@ -11,7 +11,7 @@ export const Backdrop = styled.div`
 `;
 
 export const Content = styled.div`
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 280px) {
     width: 80%;
     height: 80%;
     position: absolute;
