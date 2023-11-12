@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/school_diary/static/css/main.16514baf.css",
-    "main.js": "/school_diary/static/js/main.9fd28d88.js",
+    "main.css": "/school_diary/static/css/main.60e1f3b1.css",
+    "main.js": "/school_diary/static/js/main.2d88d2ba.js",
     "static/js/787.34e5dce4.chunk.js": "/school_diary/static/js/787.34e5dce4.chunk.js",
     "static/media/container2png.png": "/school_diary/static/media/container2png.82275289fe18b0c10e79.png",
     "static/media/title.png": "/school_diary/static/media/title.0488ab9488292745864d.png",
     "static/media/modal.png": "/school_diary/static/media/modal.578e03cae9e7e4ed1f5e.png",
     "static/media/(1).jpg": "/school_diary/static/media/9d9b71e4e4c13079eadf12d0427c25fe(1).568a0c0defdb048fac03.jpg",
     "index.html": "/school_diary/index.html",
-    "main.16514baf.css.map": "/school_diary/static/css/main.16514baf.css.map",
-    "main.9fd28d88.js.map": "/school_diary/static/js/main.9fd28d88.js.map",
+    "main.60e1f3b1.css.map": "/school_diary/static/css/main.60e1f3b1.css.map",
+    "main.2d88d2ba.js.map": "/school_diary/static/js/main.2d88d2ba.js.map",
     "787.34e5dce4.chunk.js.map": "/school_diary/static/js/787.34e5dce4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16514baf.css",
-    "static/js/main.9fd28d88.js"
+    "static/css/main.60e1f3b1.css",
+    "static/js/main.2d88d2ba.js"
   ]
 }
