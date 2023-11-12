@@ -45,13 +45,15 @@ export const App = () => {
     }
     setIsModalOpen(true);
   };
-
+  const onSelectedDaySubmit = () => {
+    setIsModalOpen(true);
+  };
   console.log(day);
   const normDays = normalizedLessons(days, tasks);
   console.log(normDays);
   function findSelectedDay() {
     const selectedDay = normDays.find((option) => option.name === day);
-    // console.log(selectedDay);
+    console.log(selectedDay);
 
     return selectedDay;
   }
@@ -62,7 +64,7 @@ export const App = () => {
     <Container>
       <div className="App">
         <Header text="Розклад уроків та ДЗ" />
-        <Week SelectDay={onDayChange} />
+        <Week SelectDay={onDayChange} onDaySubmit={onSelectedDaySubmit} />
         <LessonsList days={normDays} />
         {isModalOpen && (
           <Modal onClose={toggleModal}>

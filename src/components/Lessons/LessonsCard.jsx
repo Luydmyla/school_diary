@@ -7,9 +7,9 @@ export const LessonsCard = ({ title, lessons }) => (
   <table className={css.table}>
     <tbody className={css.table_body}>
       <tr className={css.table_tr}>
-        {/* <td> */}
-        <h2 className={css.Lessons_title}> {title}</h2>
-        {/* </td> */}
+        <td>
+          <h2 className={css.Lessons_title}> {title}</h2>
+        </td>
       </tr>
       {lessons.map((lesson, index) => (
         <tr key={index} className={css.table_tr}>

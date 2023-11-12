@@ -1,14 +1,14 @@
 
    @media screen and (min-width: 320px) {
     .Lessons_list {
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         flex-direction: column;
         background-image: url(../../../public/container2png.png);
         background-repeat: repeat-y;
         background-size: contain;
-        /* padding-left: 20px; */
-        /* padding-right: 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
         padding-bottom: 10px;
     }
     .Lessons_title {
@@ -17,15 +17,57 @@
     font-size: 20px;  
 }
     .table {
-    /* width: 280px; */
+        display: block;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
-    border: 4px solid orangered;
+    border: 4px solid rgb(255, 191, 0);
     border-radius: 10px;
     background-color: white;
-    margin-left: 20px;
-        margin-right: 20px;
+    /* margin-left: 20px; */
+        /* margin-right: 20px; */
+ }
+ .table_body{
+display: block;
+ }
+ .table_tr{
+    display: flex;
+        justify-content: center;
+            align-items: center;
+    width: 100%;
+ }
+ .info_table_name{
+    /* display: inline-block; */
+    width:100%;
+    margin-left: 5px;
+    /* padding: 5px; */
+    font-size: 14px;
+    color: brown;
+ }
+ .table_td_name {
+    display: block;
+     border: 1px solid orangered;
+     width: 30%;
+     /* padding: 10px; */
+    overflow: hidden;
+ }
+ .table_td_task {
+    display: block;
+     border: 1px solid orangered;
+     width: 70%;
+    /* padding: 10px; */
+     overflow: hidden;
+ }
+ .info_table_task{
+    /* display: inline-block; */
+    /* width: 100%; */
+    width: 100%;
+    margin-left: 5px;
+    /* padding: 5px; */
+    font-size: 14px;
+    color: darkolivegreen;
+    overflow: hidden;
  }
 }
 
@@ -48,13 +90,62 @@
 }
  .table {
     width: 100%;
-    border: 4px solid orangered;
+    border: 4px solid rgb(255, 191, 0);
     border-radius: 10px;
     margin-top: 40px;
     margin-bottom: 10px;
     padding: 20px;
    
     background-color: white;
+ }
+ .table_body {
+     display: block;
+     /* margin-left: 20px;
+     margin-right: 20px; */
+ }
+ .Lessons_item {
+     display: flex;
+     width: 100%;
+ }
+
+ .Lessons_wrap {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+ }
+
+ .Lessons_item_content {
+     width: 100%;
+     display: flex;
+ }
+
+ .Lessons_item_content_lesson {
+     width: 50%;
+     display: flex;
+ }
+
+ .Lessons_item_content_task {
+     width: 50%;
+     display: flex;
+ }
+ .table_td_name{
+    display: block;
+border: 1px solid orangered;
+width: 20%;
+}
+.table_td_task {
+    display: block;
+    border: 1px solid orangered;
+    width: 80%;
+    overflow:hidden ;
+}
+ .info_table_task {
+font-size: 24px;
+ }
+ .info_table_name {
+     
+     font-size: 24px;
+    color: darkolivegreen;
  }
 }
 
@@ -65,32 +156,6 @@ padding: 10px;
 /* .table_tr{
     width: 100%;
 } */
-.table_td_name{
-border: 1px solid orangered;
-width: 20%;
-}
-.table_td_task {
-    border: 1px solid orangered;
-    width: 80%;
-}
-.Lessons_item{
-    display: flex;
-    width: 100%;
-}
-.Lessons_wrap{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.Lessons_item_content{
-    width: 100%;
-    display: flex;
-}
-.Lessons_item_content_lesson{
-width: 50%;
-display: flex;
-}
-.Lessons_item_content_task{
-width: 50%;
-display: flex;
-}
+
+
+

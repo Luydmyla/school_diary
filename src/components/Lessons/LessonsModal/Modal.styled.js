@@ -27,7 +27,8 @@ export const Content = styled.div`
     transform: translate(-50%, -50%) scale(1);
     /* width: 50vw;
     height: 25vw; */
-    padding-top: 30px;
+    padding: 10px;
+    padding-top: 50px;
     background-color: #fff;
     background-image: url(${img});
     /* width: 200px;
@@ -41,6 +42,8 @@ export const Content = styled.div`
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   }
   @media screen and (min-width: 1200px) {
+    width: 80%;
+    height: 80%;
     /* width: 100%; */
     position: absolute;
     top: 50%;
@@ -59,8 +62,8 @@ export const Content = styled.div`
     /* height: fit-content;
   width: fit-content; */
     width: 50vw;
-    height: 25vw;
-    padding: 50px;
+    height: 30vw;
+    padding-top: 50px;
     background-color: #fff;
     background-image: url(${img});
     /* width: 200px;

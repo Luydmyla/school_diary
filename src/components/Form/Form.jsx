@@ -21,7 +21,7 @@ export const Form = (props) => {
           П'ятниця
         </option>
       </select>
-      {<CustomInput />}
+      {<CustomInput onSubmit={props.onFormSubmit} />}
     </form>
   );
 };
