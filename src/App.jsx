@@ -43,9 +43,14 @@ export const App = () => {
     if (value !== day) {
       setDay(value);
     }
-    setIsModalOpen(true);
+    // if (value === day) {
+    //   setDay(value);
+    // }
+    // setIsModalOpen(true);
+    // console.log("yes");
   };
-  const onSelectedDaySubmit = () => {
+  const onSelectedDaySubmit = (e) => {
+    e.preventDefault();
     setIsModalOpen(true);
   };
   console.log(day);

@@ -8,6 +8,9 @@ export const Backdrop = styled.div`
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
+  /* body {
+    overflow: hidden;
+  } */
 `;
 
 export const Content = styled.div`
@@ -40,6 +43,7 @@ export const Content = styled.div`
     border-radius: 10px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    z-index: 99;
   }
   @media screen and (min-width: 1200px) {
     width: 80%;
